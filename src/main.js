@@ -10,7 +10,7 @@ document.getElementById('kanvan').addEventListener('click', event => {
 });
 //agregando listener para log out
 document.getElementById('logout').addEventListener('click', event => {
-  window.location.assign('index.html');
+  window.location.assign('../index.html');
 });
 
 // // Drag and drop. Con arrow function se rompe
